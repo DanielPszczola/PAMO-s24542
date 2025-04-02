@@ -5,38 +5,46 @@
     android:padding="16dp">
 
     <LinearLayout
-        android:id="@+id/inputContainer"
+        android:id="@+id/calorieInputContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/weightInput"
+            android:id="@+id/calorieWeightInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Podaj wagę (kg)"
             android:inputType="numberDecimal" />
 
         <EditText
-            android:id="@+id/heightInput"
+            android:id="@+id/calorieHeightInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Podaj wzrost (cm)"
             android:inputType="numberDecimal" />
 
-        <TextView
-            android:id="@+id/resultText"
+        <EditText
+            android:id="@+id/calorieAgeInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:paddingTop="16dp" />
+            android:hint="Podaj wiek (lata)"
+            android:inputType="number" />
     </LinearLayout>
 
     <Button
-        android:id="@+id/calorieButton"
+        android:id="@+id/calculateCaloriesButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Zapotrzebowanie kaloryczne"
+        android:text="Oblicz zapotrzebowanie"
+        android:layout_below="@id/calorieInputContainer"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/bmiButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kalkulator BMI"
         android:layout_alignParentBottom="true" />
 
 </RelativeLayout>
