@@ -10,3 +10,7 @@ Zadanie 2:
 -ekran wyniku obliczeń i sugerowany przepis
 ![image](https://github.com/user-attachments/assets/5acaaf55-cfca-4e85-ab3a-920b24d8bfe7)
 
+
+Zadanie 3:
+-Junit tests
+![image](https://github.com/user-attachments/assets/67be93ca-9137-48f9-ba8b-416a7eda0377)
