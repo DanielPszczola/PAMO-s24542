@@ -18,3 +18,6 @@ Zadanie 3:
 ![image](https://github.com/user-attachments/assets/67be93ca-9137-48f9-ba8b-416a7eda0377)
 -espresso
 ![image](https://github.com/user-attachments/assets/7e7d769a-faad-4be9-a7ce-cda18d1a2274)
+-monkey
+![image](https://github.com/user-attachments/assets/f0bf6cd5-a728-45bc-ae13-c1427aa07105)
+![image](https://github.com/user-attachments/assets/dbacbf38-7c72-4b32-b68f-2dabf71cd39c)
