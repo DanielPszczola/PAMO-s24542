@@ -21,3 +21,6 @@ Zadanie 3:
 -monkey
 ![image](https://github.com/user-attachments/assets/f0bf6cd5-a728-45bc-ae13-c1427aa07105)
 ![image](https://github.com/user-attachments/assets/dbacbf38-7c72-4b32-b68f-2dabf71cd39c)
+
+note:
+niestety przez wzgląd na wielkość pliku nie udało się wstawić raportu po poprawkach
