@@ -23,6 +23,8 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".CalorieFormActivity" />
         <activity android:name=".CalorieResultActivity" />
+        <activity android:name=".ShoppingListActivity" />
+        <activity android:name=".BmiChartActivity" />
     </application>
 
 </manifest>

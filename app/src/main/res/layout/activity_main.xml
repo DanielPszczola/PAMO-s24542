@@ -4,11 +4,13 @@
     android:layout_height="match_parent"
     android:padding="16dp">
 
+    <!-- Kontener na dane wejściowe i wynik BMI -->
     <LinearLayout
         android:id="@+id/inputContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_alignParentTop="true">
 
         <EditText
             android:id="@+id/weightInput"
@@ -32,11 +34,21 @@
             android:paddingTop="16dp" />
     </LinearLayout>
 
+    <!-- Przycisk 1 -->
     <Button
         android:id="@+id/calorieButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Zapotrzebowanie kaloryczne"
         android:layout_alignParentBottom="true" />
+
+    <!-- Przycisk 2 -->
+    <Button
+        android:id="@+id/chartButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wykres BMI"
+        android:layout_above="@id/calorieButton"
+        android:layout_marginBottom="8dp" />
 
 </RelativeLayout>

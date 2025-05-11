@@ -13,6 +13,8 @@ public class CalorieResultActivity extends AppCompatActivity {
 
     private TextView resultTextView, recipeContent;
     private Button backToFormButton;
+
+    private Button shoppingListButton;
     private double weight, height;
     private int age;
     private final NumberFormat numberFormat = NumberFormat.getInstance();
@@ -38,6 +40,11 @@ public class CalorieResultActivity extends AppCompatActivity {
                 Intent intent = new Intent(CalorieResultActivity.this, CalorieFormActivity.class);
                 startActivity(intent);
             }
+        });
+        shoppingListButton = findViewById(R.id.shoppingListButton);
+        shoppingListButton.setOnClickListener(v -> {
+            Intent intent = new Intent(CalorieResultActivity.this, ShoppingListActivity.class);
+            startActivity(intent);
         });
     }
 

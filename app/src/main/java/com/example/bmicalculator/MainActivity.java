@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private double weight = 0.0;
     private double height = 0.0;
     private final DecimalFormat decimalFormat = new DecimalFormat("#.##");
+    private Button chartButton;
 
     private Button calorieButton;
 
@@ -35,6 +36,15 @@ public class MainActivity extends AppCompatActivity {
 
         weightInput.addTextChangedListener(bmiTextWatcher);
         heightInput.addTextChangedListener(bmiTextWatcher);
+
+        chartButton = findViewById(R.id.chartButton);
+        chartButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, BmiChartActivity.class);
+                startActivity(intent);
+            }
+        });
 
         calorieButton.setOnClickListener(new View.OnClickListener() {
             @Override

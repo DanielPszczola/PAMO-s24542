@@ -39,5 +39,12 @@
             android:layout_height="wrap_content"
             android:text="Powrót do formularza" />
 
+        <Button
+            android:id="@+id/shoppingListButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lista zakupów do przepisu"
+            android:layout_marginTop="12dp" />
+
     </LinearLayout>
 </ScrollView>
